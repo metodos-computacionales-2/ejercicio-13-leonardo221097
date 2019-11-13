@@ -2,7 +2,7 @@
 
 
 ## Ejercicio 1
-En este ejercicio se imprime la posiciónde la memoria  donde se guardan los valores de la funcion resta.
+En este ejercicio se imprime la direccion de la memoria  donde se guardan los valores de la funcion resta.
 
 ## Ejercicio 2
 En este ejercicio al volver constante el valor de pasar por referencia en la terminal no corre nada. esto se debe a que al declarar una variable como constante esta no puede ser modificada asi pase por valor o referencia.
