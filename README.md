@@ -2,7 +2,7 @@
 
 
 ## Ejercicio 1
-En este ejercicio se imprime la posición donde se guardan los valores de la funcion resta.
+En este ejercicio se imprime la posiciónde la memoria  donde se guardan los valores de la funcion resta.
 
 ## Ejercicio 2
 En este ejercicio al volver constante el valor de pasar por referencia en la terminal no corre nada. esto se debe a que al declarar una variable como constante esta no puede ser modificada asi pase por valor o referencia.
@@ -19,7 +19,7 @@ Antes de realizar el ejercicio 5 se pide ejecutar este codigo en la terminal (g+
 En este ejercicio se calcula el valor de pi (ejercicio5.cpp) y en el ejercicio51.cpp tambien se calcula el valor de pi pero con una precision de 16 decimales, esto se hace para que cuando uno vaya a realizar un informe cientifico todos los resultados tengan el mismo numero de decimales.
 
 ## Ejercicio 6
-En este ejercicio lo unico que se tuvo el cuenta fue que para ejercutar el codigo compilado (./a.out) se necisita multiplicar por mil (*1000) se hace esto para pedir una determinada cantidad de memoria y el codigo se pueda ejecutar.
+En este ejercicio lo unico que se tuvo el cuenta fue que para ejercutar el codigo compilado (./a.out) se necisita multiplicar por mil (*1000) se hace esto para pedir una determinada cantidad de memoria y el codigo se pueda ejecutar. El error de segmentation fault se debe a que hay muchas variables locales para la ejecucion del codigo, por esta razon es que agregando la multiplicacion (*1000) se le da un espacio de memoria para la ejecucion de codigo. Ademas en los dos ejercicios (ejercicio6.cpp y ejercicio61.cpp) se hacen variables tipo heap y tipo stack y en los dos ejercicios sucede el mismo error y por ende en ambas debe hacerse la multiplicación al ejecutable ./a.out.
 
 Por ultimo, el codigo lab13.cpp lo que realiza es la multiplicación de dos matrices cuadradas de tamaño (N) e imprime el resultadode esta multiplicación.
 
