@@ -10,15 +10,17 @@ int main()
     int k, m, n;
 
     
-    cout<<"Filas de A: "; cin>>k;
+    cout<<"valor de N: "; cin>>k;
     m=k;
     cout<<"Columnas de A: "<<m<<endl;
+     cout<<"filasde A: "<<m<<endl;
     cout<<endl;
     for(int i=0; i<k; ++i)
         for(int j=0; j<m; ++j)
         {
          
-            A[i][j]=(float)1.0 /(i +1) + (j + 1); 
+           cout<<"Ingrese valor para A["<<i<<"]["<<j<<"]: ";
+            cin>>A[i][j]; 
         }
 
     cout<<"Lectura de matriz B."<<endl;
@@ -30,7 +32,8 @@ int main()
         for(int j=0; j<n; ++j)
         {
             
-            B[i][j]=(float)1.0 / (i +1) + (j + 1);
+            cout<<"Ingrese valor para B["<<i<<"]["<<j<<"]: ";
+            cin>>B[i][j];
         }
 
     // Inicializamos la matriz C.
