@@ -21,3 +21,5 @@ En este ejercicio se calcula el valor de pi (ejercicio5.cpp) y en el ejercicio51
 ## Ejercicio 6
 En este ejercicio lo unico que se tuvo el cuenta fue que para ejercutar el codigo compilado (./a.out) se necisita multiplicar por mil (*1000) se hace esto para pedir una determinada cantidad de memoria y el codigo se pueda ejecutar.
 
+Por ultimo, el codigo lab13.cpp lo que realiza es la multiplicación de dos matrices cuadradas de tamaño (N) e imprime el resultadode esta multiplicación.
+
